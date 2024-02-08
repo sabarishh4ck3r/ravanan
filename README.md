@@ -40,6 +40,9 @@ Contributions to Ravanan are welcome! If you encounter any bugs or have suggesti
 ## 📸 screenshot
 <img width="810" alt="Screenshot 2024-02-05 at 8 29 53 PM" src="https://github.com/sabarishh4ck3r/ravanan/assets/137868563/244261ba-0bc3-4d31-8aa7-e2fa214e5524">
 
+## 📸 Credential Harvesting: Ravanan enables the capture of usernames, passwords, and other sensitive information entered by targets
+
+
 ## 🫡 connect:
   instagram : `https://www.instagram.com/sabarish_hacker/`
 
