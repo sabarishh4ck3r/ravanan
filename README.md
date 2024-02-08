@@ -17,6 +17,7 @@ Ravanan can be installed on Linux and macOS systems. Follow these steps to insta
 1. Clone the repository: `git clone https://github.com/yourusername/ravanan.git`
 2. Navigate to the Ravanan directory: `cd ravanan`
 3. Install dependencies: `pip install -r requirements.txt`
+4. run `python3 ravanan.py`
 
 ## 🛠️ Usage
 
