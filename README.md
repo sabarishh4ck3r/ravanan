@@ -19,7 +19,7 @@ Ravanan can be installed on Linux and macOS systems. Follow these steps to insta
 3. Install dependencies: `pip install -r requirements.txt`
 4. run `python3 ravanan.py`
 
-## templates 🎞️
+## 🎞️ templates 
 
 1. Facebook
 2. Twitter
