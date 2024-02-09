@@ -19,6 +19,27 @@ Ravanan can be installed on Linux and macOS systems. Follow these steps to insta
 3. Install dependencies: `pip install -r requirements.txt`
 4. run `python3 ravanan.py`
 
+## templates 🎞️
+
+1. Facebook
+2. Twitter
+3. Discord
+4. Paypal
+5. Steam
+6. Instagram
+7. apple
+8. portal
+9. pinterest
+10. gitlab
+11. adobe
+12. amazon
+13. GitHub
+14. linkedin
+15. playstation
+16. twitch
+17. wordpress
+18. yahoo
+
 ## 🛠️ Usage
 
 To launch a phishing campaign with Ravanan, follow these steps:
